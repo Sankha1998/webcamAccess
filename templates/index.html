@@ -1,0 +1,23 @@
+<!doctype html>
+
+<head>
+    <link href="{{ url_for('static', filename='css/page.css') }}" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-3">
+                <video id="video">Video stream not available.</video>
+                <canvas id="canvas"></canvas>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+<script async src="{{url_for('static',filename='js/camera.js')}}"></script>
+
+</html>

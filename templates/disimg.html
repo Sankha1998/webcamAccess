@@ -1,0 +1,23 @@
+<!doctype html>
+
+<head>
+    <link href="{{ url_for('static', filename='css/page.css') }}" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-3">
+                {% for i in arr %}
+                <img src="{{i | safe}}">
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+
+</html>

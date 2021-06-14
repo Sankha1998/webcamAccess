@@ -1,0 +1,10 @@
+#video {
+    float:left;
+    width: 15rem;
+    height: 10rem;
+}
+
+#canvas {
+   display: none;
+}
+
