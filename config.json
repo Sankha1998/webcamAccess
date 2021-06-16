@@ -1,0 +1,9 @@
+{
+  "params":
+  {
+    "local_server": "True",
+    "local_uri": "mysql://root:@localhost/webcamaccess",
+    "prod_uri": "mysql://root:@localhost/",
+    "Project_name": "Web Camera Access"
+  }
+}
